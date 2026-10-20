@@ -84,11 +84,13 @@ section{padding-block:4rem}
 .hours tr.closed td:last-child{color:var(--muted)}
 .hours tr.today td{color:var(--accent);font-weight:600}
 .doctor{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:1.6rem;display:grid;gap:.8rem}
+.avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%;display:block}
+.avatar{overflow:hidden}
 .doctors{list-style:none;margin:0;padding:0;display:grid;gap:.8rem}
 .doc{display:flex;gap:1rem;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:1rem 1.2rem}
 .doc > div:last-child{min-width:0}
 .doc p{color:var(--muted);font-size:.92rem;margin-top:.2rem;display:inline-block}
-.avatar{flex:none;width:56px;height:56px;border-radius:50%;background:color-mix(in srgb,var(--accent) 18%,var(--surface));display:grid;place-items:center;font-family:var(--display);font-weight:700;color:var(--accent);font-size:1.1rem}
+.avatar{flex:none;width:72px;height:72px;border-radius:50%;background:color-mix(in srgb,var(--accent) 18%,var(--surface));display:grid;place-items:center;font-family:var(--display);font-weight:700;color:var(--accent);font-size:1.1rem}
 
 .gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:220px 220px;gap:1rem}
 .gallery > *:first-child{grid-row:span 2}
@@ -306,7 +308,7 @@ footer{padding-block:3.5rem 2rem;color:var(--muted);font-size:.92rem;border-top:
           <h2>Nuestros especialistas</h2>
         </div>
         <ul class="doctors">
-          <li class="doc"><div class="avatar" aria-hidden="true">EN</div><div><h3>Dr. Erick J. Núñez Ubiera</h3></div></li>
+          <li class="doc"><div class="avatar"><img src="dr-erick-nunez.jpg" alt="Dr. Erick J. Núñez Ubiera" width="72" height="72" loading="lazy"></div><div><h3>Dr. Erick J. Núñez Ubiera</h3></div></li>
           <li class="doc"><div class="avatar" aria-hidden="true">IC</div><div><h3>Dra. Indhira Ciprian Ulloa</h3></div></li>
           <li class="doc"><div class="avatar" aria-hidden="true">JN</div><div><h3>Dr. José Abraham Núñez</h3></div></li>
         </ul>
