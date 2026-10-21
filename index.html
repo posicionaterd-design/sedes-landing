@@ -40,6 +40,8 @@ a:focus-visible,.btn:focus-visible{outline:3px solid var(--sun);outline-offset:3
 .btn-ghost{color:var(--accent)}
 .tbd{border-bottom:2px dashed var(--sun)}
 
+body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:url("logo-mark-light.png") no-repeat right -6vmin center / auto 78vmin;opacity:.09}
+@media (max-width:720px){body::after{background-position:center;background-size:auto 70vmin}}
 header{position:sticky;top:env(safe-area-inset-top, 0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top, 0px);z-index:10;background:var(--bg)}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-block:.9rem;flex-wrap:wrap}
