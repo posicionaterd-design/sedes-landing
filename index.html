@@ -92,6 +92,7 @@ section{padding-block:4rem}
 .doc{display:flex;gap:1rem;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:1rem 1.2rem}
 .doc > div:last-child{min-width:0}
 .doc p{color:var(--muted);font-size:.92rem;margin-top:.2rem;display:inline-block}
+.doc .mail{display:block;overflow-wrap:anywhere;font-size:.88rem}
 .avatar{flex:none;width:72px;height:72px;border-radius:50%;background:color-mix(in srgb,var(--accent) 18%,var(--surface));display:grid;place-items:center;font-family:var(--display);font-weight:700;color:var(--accent);font-size:1.1rem}
 
 .gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:220px 220px;gap:1rem}
@@ -310,8 +311,8 @@ footer{padding-block:3.5rem 2rem;color:var(--muted);font-size:.92rem;border-top:
           <h2>Nuestros especialistas</h2>
         </div>
         <ul class="doctors">
-          <li class="doc"><div class="avatar"><img src="dr-erick-nunez.jpg" alt="Dr. Erick J. Núñez Ubiera" width="72" height="72" loading="lazy"></div><div><h3>Dr. Erick J. Núñez Ubiera</h3></div></li>
-          <li class="doc"><div class="avatar" aria-hidden="true">IC</div><div><h3>Dra. Indhira Ciprian Ulloa</h3></div></li>
+          <li class="doc"><div class="avatar"><img src="dr-erick-nunez.jpg" alt="Dr. Erick J. Núñez Ubiera" width="72" height="72" loading="lazy"></div><div><h3>Dr. Erick J. Núñez Ubiera</h3><p class="mail">dr.enunez@sedesdentalclinic.com</p></div></li>
+          <li class="doc"><div class="avatar" aria-hidden="true">IC</div><div><h3>Dra. Indhira Ciprian Ulloa</h3><p class="mail">dra.iciprian@sedesdentalclinic.com</p></div></li>
           <li class="doc"><div class="avatar" aria-hidden="true">JN</div><div><h3>Dr. José Abraham Núñez</h3></div></li>
         </ul>
       </div>
@@ -340,6 +341,7 @@ footer{padding-block:3.5rem 2rem;color:var(--muted);font-size:.92rem;border-top:
         <strong>Visítanos</strong>
         <span>Corporate Center, Av. Rómulo Betancourt 1308, Suite 207-208, Bella Vista, Santo Domingo, D.N., República Dominicana</span>
         <span>Tel. y WhatsApp (829) 243-3575</span>
+        <span>Correo: info@sedesdentalclinic.com</span>
         <span>Lunes a viernes 9:00 a.m. – 6:00 p.m. · Sábado 9:30 a.m. – 1:00 p.m.</span>
       </div>
       <div class="social">
@@ -365,6 +367,7 @@ footer{padding-block:3.5rem 2rem;color:var(--muted);font-size:.92rem;border-top:
   "employee": [{"@type":"Person","name":"Erick J. Núñez Ubiera"},{"@type":"Person","name":"Indhira Ciprian Ulloa"},{"@type":"Person","name":"José Abraham Núñez"}],
   "url": "https://sedesdentalclinic.com",
   "telephone": "+1-829-243-3575",
+  "email": "info@sedesdentalclinic.com",
   "sameAs": ["https://www.instagram.com/sedesdentalclinic/"],
   "address": {
     "@type": "PostalAddress",
